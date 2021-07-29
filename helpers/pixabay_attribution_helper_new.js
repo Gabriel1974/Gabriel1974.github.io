@@ -18,6 +18,8 @@ $(function() {
     if (url_string.indexOf("?") > 0) {
         var url = new URL(url_string);
         console.log("@GT: url = ", url);
+        var addr = url.searchParams.get("addr");
+        console.log("@GT: addr = ", addr);
         var statement = url.searchParams.get("statement");
         console.log("@GB: statement = ", statement);
 
