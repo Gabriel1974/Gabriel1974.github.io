@@ -17,7 +17,7 @@ $(function() {
     var url_string = window.location.href;
     if (url_string.indexOf("?") > 0) {
         var url = new URL(url_string);
-        console.log("@GB: url = ", url);
+        console.log("@GT: url = ", url);
         var statement = url.searchParams.get("statement");
         console.log("@GB: statement = ", statement);
 
