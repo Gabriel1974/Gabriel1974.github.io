@@ -93,9 +93,9 @@ $(function() {
 
             var alt = url.searchParams.get("alt");
             var src = url.searchParams.get("src");
-            var imageURL = Object.searchParams.get("pageURL");
-            var artist_id = Object.searchParams.get("user_id");
-            var artist = Object.searchParams.get("user");
+            var imageURL = data.searchParams.get("pageURL");
+            var artist_id = data.searchParams.get("user_id");
+            var artist = data.searchParams.get("user");
             console.log("@GB: src = ", src);
             console.log("@GB: alt = ", alt);
             console.log("@GT: imageURL(pageURL) = ", imageURL);           
