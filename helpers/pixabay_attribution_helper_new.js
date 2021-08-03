@@ -48,8 +48,8 @@ $(function() {
                     
                     
                     //testing
-                    var pageURL = data.hits[0].pageURL;
-                    console.log("@GT: pageURL = ", pageURL);
+                    var imageURL = data.hits[0].pageURL;
+                    console.log("@GT: imageURL(pageURL) = ", imageURL);
                     
                     var artist_id = data.hits[0].user_id;
                     console.log("@GT: artist_id(user_id) = ", artist_id);
