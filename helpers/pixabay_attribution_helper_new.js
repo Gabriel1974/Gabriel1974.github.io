@@ -51,8 +51,14 @@ $(function() {
                     var pageURL = data.hits[0].pageURL;
                     console.log("@GT: pageURL = ", pageURL);
                     
-                    var user = data.hits[0].user;
-                    console.log("@GT: user = ", user);
+                    var artist_id = data.hits[0].user_id;
+                    console.log("@GT: artist_id(user_id) = ", artist_id);
+                                        
+                    var artist = data.hits[0].user;
+                    console.log("@GT: artist(user) = ", artist);
+                    
+                    var tags = data.hits[0].tags;
+                    console.log("@GT: tags = ", tags);                    
 
                     // Update preview image
 
