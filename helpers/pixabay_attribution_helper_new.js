@@ -45,6 +45,14 @@ $(function() {
                     console.log("@GB: img_med = ", img_med);
                     var img_sml = img_lge.replace("_1280", "_640");
                     console.log("@GB: img_sml = ", img_sml);
+                    
+                    
+                    //testing
+                    var pageURL = data.hits[0].pageURL;
+                    console.log("@GT: pageURL = ", pageURL);
+                    
+                    var user = data.hits[0].user;
+                    console.log("@GT: user = ", user);
 
                     // Update preview image
 
