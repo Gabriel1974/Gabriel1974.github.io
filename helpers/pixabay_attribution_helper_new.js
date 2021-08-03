@@ -56,9 +56,7 @@ $(function() {
                                         
                     var artist = data.hits[0].user;
                     console.log("@GT: artist(user) = ", artist);
-                    
-                    var tags = data.hits[0].tags;
-                    console.log("@GT: tags = ", tags);                    
+                                     
 
                     // Update preview image
 
@@ -115,8 +113,12 @@ $(function() {
             });
 
 
+         //   $('small').each(function(index, el) {
+         //       $(this).html(statement + ', <a href="https://creativecommons.org/licenses/by/3.0/au/" target="_blank">CC BY 3.0 AU</a>.');
+         //   });
+            
             $('small').each(function(index, el) {
-                $(this).html(statement + ', <a href="https://creativecommons.org/licenses/by/3.0/au/" target="_blank">CC BY 3.0 AU</a>.');
+                $(this).html('<a href="'+ imageURL +'" target="_blank">Image</a> by <a href="https://pixabay.com/users/'+ artist +'-'+ artist_id +'/ "target="_blank">' + artist + '</a> from <a href="https://pixabay.com/service/privacy/" target="_blank">Pixabay</a>, <a href="https://creativecommons.org/licenses/by/3.0/au/" target="_blank">CC BY 3.0 AU</a>.');
             });
 
             $('#embedder button').click(function(event) {
