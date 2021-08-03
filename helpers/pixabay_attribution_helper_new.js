@@ -48,13 +48,13 @@ $(function() {
                     
                     
                     //testing
-                   // var imageURL = data.hits[0].pageURL;
+                    var imageURL = data.hits[0].pageURL;
                    // console.log("@GT: imageURL(pageURL) = ", imageURL);
                     
-                  //  var artist_id = data.hits[0].user_id;
+                    var artist_id = data.hits[0].user_id;
                   //  console.log("@GT: artist_id(user_id) = ", artist_id);
                                         
-                  //  var artist = data.hits[0].user;
+                   var artist = data.hits[0].user;
                    // console.log("@GT: artist(user) = ", artist);
                                      
 
