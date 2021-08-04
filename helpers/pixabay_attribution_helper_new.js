@@ -4,6 +4,7 @@
  * @Last Modified by:   Greg Bird
  * @Last Modified time: 2020-03-23 10:21:06
  */
+
 let imageURL = "Gabriel";
 var artist_id;
 var artist;
@@ -67,7 +68,7 @@ $(function() {
                                         
                    var user = data.hits[0].user;
                     console.log("@GT1: user = ", user);
-                                     
+                     console.log("@GT-G: imageURL = ", imageURL);                
                     imageURL = pageURL;
                     var artist_id = user_id;
                     var artist = user;
