@@ -97,6 +97,7 @@ $(function() {
                         // Cancel the default action
                         event.preventDefault();
                     });
+                    
                 })
                 .fail(function() {
                     console.log("error");
@@ -110,14 +111,14 @@ $(function() {
 
             console.log("@GB: src = ", src);
             console.log("@GB: alt = ", alt);
-            
+           var imageURL = imageURL;           
+           var artist_id = artist_id;                                    
+           var artist = artist;
             console.log("@GT3: imageURL(pageURL) = ", imageURL);           
             console.log("@GT3: artist_id(user_id) = ", artist_id);                                     
             console.log("@GT3: artist(user) = ", artist);
             
-           // var imageURL = imageURL;           
-            //var artist_id = string(artist_id);                                    
-            //var artist = string(artist);
+
             //console.log("@GT3: imageURL(pageURL) = ", imageURL);           
             //console.log("@GT3: artist_id(user_id) = ", artist_id);                                     
             //console.log("@GT3: artist(user) = ", artist);
