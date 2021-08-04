@@ -61,7 +61,7 @@ $(function() {
                                      
                     var imageURL = pageURL;
                     var artist_id = user_id;
-                    artist = user";
+                    var artist = user;
                     
                     console.log("@GT2: imageURL(pageURL) = ", imageURL);           
                     console.log("@GT2: artist_id(user_id) = ", artist_id);                                     
