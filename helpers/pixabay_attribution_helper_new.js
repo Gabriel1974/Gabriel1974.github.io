@@ -97,9 +97,9 @@ $(function() {
                         // Cancel the default action
                         event.preventDefault();
                     });
-            var imageURL = imageURL;           
-           var artist_id = artist_id;                                    
-           var artist = artist;
+            //var imageURL = imageURL;           
+           //var artist_id = artist_id;                                    
+           //var artist = artist;
                 })
                 .fail(function() {
                     console.log("error");
