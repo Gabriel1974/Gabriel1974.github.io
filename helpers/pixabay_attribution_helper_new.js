@@ -7,7 +7,7 @@
 var imageURL = "x";
 var artist_id = "x";
 var artist ="x";
-console.log("@GT1: pageURL = ", pageURL);
+console.log("@GT: imageURL = ", imageURL;
 
 $(function() {
     // Detect IE
