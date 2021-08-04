@@ -6,8 +6,8 @@
  */
 
 let imageURL = "Gabriel";
-var artist_id;
-var artist;
+var artist_id = "Gabriel_artist_id";
+var artist = "Gabriel_artist_id";
 console.log("@GT: imageURL = ", imageURL);
 console.log("@GT: artist_id = ", artist_id);
 console.log("@GT: artist = ", artist);
@@ -70,8 +70,8 @@ $(function() {
                     console.log("@GT1: user = ", user);
                      console.log("@GT-G: imageURL = ", imageURL);                
                     imageURL = pageURL;
-                    var artist_id = user_id;
-                    var artist = user;
+                    artist_id = user_id;
+                    artist = user;
                     
                     console.log("@GT2: imageURL(pageURL) = ", imageURL);           
                     console.log("@GT2: artist_id(user_id) = ", artist_id);                                     
