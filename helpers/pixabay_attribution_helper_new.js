@@ -49,13 +49,13 @@ $(function() {
                     
                     //testing
                     var imageURL = data.hits[0].pageURL;
-                   // console.log("@GT: imageURL(pageURL) = ", imageURL);
+                    console.log("@GT: imageURL(pageURL) = ", imageURL);
                     
                     var artist_id = data.hits[0].user_id;
-                  //  console.log("@GT: artist_id(user_id) = ", artist_id);
+                    console.log("@GT: artist_id(user_id) = ", artist_id);
                                         
                    var artist = data.hits[0].user;
-                   // console.log("@GT: artist(user) = ", artist);
+                    console.log("@GT: artist(user) = ", artist);
                                      
 
                     // Update preview image
@@ -93,9 +93,9 @@ $(function() {
 
             var alt = url.searchParams.get("alt");
             var src = url.searchParams.get("src");
-            var imageURL = data.searchParams.get("pageURL");
-            var artist_id = data.searchParams.get("user_id");
-            var artist = data.searchParams.get("user");
+            //var imageURL = data.searchParams.get("pageURL");
+            //var artist_id = data.searchParams.get("user_id");
+            //var artist = data.searchParams.get("user");
             console.log("@GB: src = ", src);
             console.log("@GB: alt = ", alt);
             console.log("@GT: imageURL(pageURL) = ", imageURL);           
