@@ -8,6 +8,8 @@ var imageURL = "x";
 var artist_id = "x";
 var artist ="x";
 console.log("@GT: imageURL = ", imageURL);
+console.log("@GT: artist_id = ", artist_id);
+console.log("@GT: artist = ", artist);
 
 $(function() {
     // Detect IE
@@ -65,9 +67,9 @@ $(function() {
                     var artist_id = user_id;
                     var artist = user;
                     
-                    console.log("@GT2: GT_imageURL(pageURL) = ", imageURL);           
-                    console.log("@GT2: GT_artist_id(user_id) = ", artist_id);                                     
-                    console.log("@GT2: GT_artist(user) = ", artist);
+                    console.log("@GT2: imageURL(pageURL) = ", imageURL);           
+                    console.log("@GT2: artist_id(user_id) = ", artist_id);                                     
+                    console.log("@GT2: artist(user) = ", artist);
                     
                     
                     // Update preview image
@@ -105,17 +107,20 @@ $(function() {
 
             var alt = url.searchParams.get("alt");
             var src = url.searchParams.get("src");
-            //var imageURLGT = data.get("pageURL");
-            //var artist_idGT = url.searchParams.get("user_id");
-            //var artistGT = url.searchParams.get("user");
+
             console.log("@GB: src = ", src);
             console.log("@GB: alt = ", alt);
-            var imageURL = string(imageURL);           
-            var artist_id = string(artist_id);                                    
-            var artist = string(artist);
+            
             console.log("@GT3: imageURL(pageURL) = ", imageURL);           
             console.log("@GT3: artist_id(user_id) = ", artist_id);                                     
             console.log("@GT3: artist(user) = ", artist);
+            
+           // var imageURL = imageURL;           
+            //var artist_id = string(artist_id);                                    
+            //var artist = string(artist);
+            //console.log("@GT3: imageURL(pageURL) = ", imageURL);           
+            //console.log("@GT3: artist_id(user_id) = ", artist_id);                                     
+            //console.log("@GT3: artist(user) = ", artist);
                               
                    
 
@@ -132,9 +137,9 @@ $(function() {
                 el.src = "https://dummyimage.com//b094b0/BAD761&text=Replace+with+downloaded+pixabay+image";
                 $(this).attr('alt', alt);
                 $(this).attr('title', alt);
-                var imageURL = imageURL;           
-                var artist_id = artist_id;                                    
-            var artist = artist;     
+                //var imageURL = imageURL;           
+                //var artist_id = artist_id;                                    
+            //var artist = artist;     
             console.log("@GT4: imageURL(pageURL) = ", imageURL);           
             console.log("@GT4: artist_id(user_id) = ", artist_id);                                     
             console.log("@GT4: artist(user) = ", artist);
