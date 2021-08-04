@@ -126,7 +126,9 @@ $(function() {
                 el.src = "https://dummyimage.com//b094b0/BAD761&text=Replace+with+downloaded+pixabay+image";
                 $(this).attr('alt', alt);
                 $(this).attr('title', alt);
-                $(this).attr('pageURL', pageURL);
+                $(this).attr('artist', artist);
+                $(this).attr('artist_id', artist_id);
+                $(this).attr('imageURL', imageURL); 
             });
 
 
