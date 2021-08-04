@@ -154,7 +154,7 @@ setTimeout(function() {
                 $(this).attr('imageURL', imageURL); 
                         
             });
-
+console.log("@GT5: imageURL(pageURL) = ", imageURL);
 
          //   $('small').each(function(index, el) {
          //       $(this).html(statement + ', <a href="https://creativecommons.org/licenses/by/3.0/au/" target="_blank">CC BY 3.0 AU</a>.');
