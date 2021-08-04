@@ -101,6 +101,7 @@ $(function() {
             console.log("@GT2: imageURL(pageURL) = ", imageURLGT);           
             console.log("@GT2: artist_id(user_id) = ", artist_idGT);                                     
             console.log("@GT2: artist(user) = ", artistGT);
+            console.log("@GT3: user = ", user);
 
 
             // Get current date string
