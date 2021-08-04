@@ -4,9 +4,9 @@
  * @Last Modified by:   Greg Bird
  * @Last Modified time: 2020-03-23 10:21:06
  */
-            var imageURL;
-            var artist_id;
-            var artist;
+            var GT_imageURL;
+            var GT_artist_id;
+            var GT_artist;
 $(function() {
     // Detect IE
     var isIE = detectIE();
@@ -59,13 +59,13 @@ $(function() {
                    var user = data.hits[0].user;
                     console.log("@GT1: user = ", user);
                                      
-                    var imageURL = pageURL;
-                    var artist_id = user_id;
-                    var artist = user;
+                    var GT_imageURL = pageURL;
+                    var GT_artist_id = user_id;
+                    var GT_artist = user;
                     
-                    console.log("@GT2: imageURL(pageURL) = ", imageURL);           
-                    console.log("@GT2: artist_id(user_id) = ", artist_id);                                     
-                    console.log("@GT2: artist(user) = ", artist);
+                    console.log("@GT2: GT_imageURL(pageURL) = ", GT_imageURL);           
+                    console.log("@GT2: GT_artist_id(user_id) = ", GT_artist_id);                                     
+                    console.log("@GT2: GT_artist(user) = ", GT_artist);
                     
                     
                     // Update preview image
@@ -108,10 +108,14 @@ $(function() {
             //var artistGT = url.searchParams.get("user");
             console.log("@GB: src = ", src);
             console.log("@GB: alt = ", alt);
+            var imageURL = GT_imageURL;           
+            var artist_id = GT_artist_id;                                    
+            var artist = GT_artist;
             console.log("@GT3: imageURL(pageURL) = ", imageURL);           
             console.log("@GT3: artist_id(user_id) = ", artist_id);                                     
             console.log("@GT3: artist(user) = ", artist);
-           
+                              
+                   
 
 
             // Get current date string
