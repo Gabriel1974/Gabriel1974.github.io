@@ -49,13 +49,13 @@ $(function() {
                     
                     //testing
                     var imageURL = data.hits[0].pageURL;
-                    console.log("@GT: imageURL(pageURL) = ", imageURL);
+                    console.log("@GT1: imageURL(pageURL) = ", imageURL);
                     
                     var artist_id = data.hits[0].user_id;
-                    console.log("@GT: artist_id(user_id) = ", artist_id);
+                    console.log("@GT1: artist_id(user_id) = ", artist_id);
                                         
                    var artist = data.hits[0].user;
-                    console.log("@GT: artist(user) = ", artist);
+                    console.log("@GT1: artist(user) = ", artist);
                                      
 
                     // Update preview image
@@ -98,9 +98,9 @@ $(function() {
             //var artist = data.searchParams.get("user");
             console.log("@GB: src = ", src);
             console.log("@GB: alt = ", alt);
-            console.log("@GT: imageURL(pageURL) = ", imageURL);           
-            console.log("@GT: artist_id(user_id) = ", artist_id);                                     
-            console.log("@GT: artist(user) = ", artist);
+            console.log("@GT2: imageURL(pageURL) = ", imageURL);           
+            console.log("@GT2: artist_id(user_id) = ", artist_id);                                     
+            console.log("@GT2: artist(user) = ", artist);
 
 
             // Get current date string
