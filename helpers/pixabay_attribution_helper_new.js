@@ -126,9 +126,10 @@ $(function() {
                 el.src = "https://dummyimage.com//b094b0/BAD761&text=Replace+with+downloaded+pixabay+image";
                 $(this).attr('alt', alt);
                 $(this).attr('title', alt);
-                $(this).attr('artist', artist);
-                $(this).attr('artist_id', artist_id);
-                $(this).attr('imageURL', imageURL); 
+                        
+                $(this).attr('artist', user);
+                $(this).attr('artist_id', user_id);
+                $(this).attr('imageURL', pageURL); 
             });
 
 
@@ -137,7 +138,7 @@ $(function() {
          //   });
             
             $('small').each(function(index, el) {
-                $(this).html('<a href="'+ imageURL +'" target="_blank">Image</a> by <a href="https://pixabay.com/users/'+ artist +'-'+ artist_id +'/ "target="_blank">'' + artist + ''</a> from <a href="https://pixabay.com/service/privacy/" target="_blank">Pixabay</a>, <a href="https://creativecommons.org/licenses/by/3.0/au/" target="_blank">CC BY 3.0 AU</a>.');
+                $(this).html('<a href="'+ imageURL +'" target="_blank">Image</a> by <a href="https://pixabay.com/users/'+ artist +'-'+ artist_id +'/ "target="_blank">'+ artist +'</a> from <a href="https://pixabay.com/service/privacy/" target="_blank">Pixabay</a>, <a href="https://creativecommons.org/licenses/by/3.0/au/" target="_blank">CC BY 3.0 AU</a>.');
             });
 
             $('#embedder button').click(function(event) {
