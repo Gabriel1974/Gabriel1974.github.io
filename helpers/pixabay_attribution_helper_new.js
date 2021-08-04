@@ -4,9 +4,9 @@
  * @Last Modified by:   Greg Bird
  * @Last Modified time: 2020-03-23 10:21:06
  */
-var imageURL = "x";
-var artist_id = "x";
-var artist ="x";
+var imageURL;
+var artist_id;
+var artist;
 console.log("@GT: imageURL = ", imageURL);
 console.log("@GT: artist_id = ", artist_id);
 console.log("@GT: artist = ", artist);
