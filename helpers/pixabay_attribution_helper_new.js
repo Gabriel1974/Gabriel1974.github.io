@@ -63,7 +63,7 @@ $(function() {
                    var user = data.hits[0].user;
                     console.log("@GT1: user = ", user);
                                      
-                    var imageURL = pageURL;
+                    imageURL = pageURL;
                     var artist_id = user_id;
                     var artist = user;
                     
