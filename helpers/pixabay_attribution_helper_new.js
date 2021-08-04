@@ -130,10 +130,16 @@ $(function() {
                 el.src = "https://dummyimage.com//b094b0/BAD761&text=Replace+with+downloaded+pixabay+image";
                 $(this).attr('alt', alt);
                 $(this).attr('title', alt);
-                        
+                var imageURL = GT_imageURL;           
+                var artist_id = GT_artist_id;                                    
+            var artist = GT_artist;     
+            console.log("@GT4: imageURL(pageURL) = ", imageURL);           
+            console.log("@GT4: artist_id(user_id) = ", artist_id);                                     
+            console.log("@GT4: artist(user) = ", artist);
                 $(this).attr('artist', artist);
                 $(this).attr('artist_id', artist_id);
                 $(this).attr('imageURL', imageURL); 
+                        
             });
 
 
