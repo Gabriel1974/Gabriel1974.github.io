@@ -12,6 +12,7 @@ console.log("@GT: imageURL = ", imageURL);
 console.log("@GT: artist_id = ", artist_id);
 console.log("@GT: artist = ", artist);
 function Gabriel(){
+           
             console.log("@GT7: imageURL(pageURL) = ", imageURL);           
             console.log("@GT7: artist_id(user_id) = ", artist_id);                                     
             console.log("@GT7: artist(user) = ", artist);
@@ -121,10 +122,10 @@ setTimeout(function() {
 
             var alt = url.searchParams.get("alt");
             var src = url.searchParams.get("src");
-
+var statement2 = url.searchParams.get("statement");
             console.log("@GB: src = ", src);
             console.log("@GB: alt = ", alt);
-
+console.log("@GT: statement2 = ", statement2);
             console.log("@GT3: imageURL(pageURL) = ", imageURL);           
             console.log("@GT3: artist_id(user_id) = ", artist_id);                                     
             console.log("@GT3: artist(user) = ", artist);
@@ -149,9 +150,9 @@ setTimeout(function() {
                 el.src = "https://dummyimage.com//b094b0/BAD761&text=Replace+with+downloaded+pixabay+image";
                 $(this).attr('alt', alt);
                 $(this).attr('title', alt);
-                //var imageURL = imageURL;           
-                //var artist_id = artist_id;                                    
-            //var artist = artist;     
+                imageURL = imageURL;           
+                artist_id = artist_id;                                    
+            artist = artist;     
             console.log("@GT4: imageURL(pageURL) = ", imageURL);           
             console.log("@GT4: artist_id(user_id) = ", artist_id);                                     
             console.log("@GT4: artist(user) = ", artist);
