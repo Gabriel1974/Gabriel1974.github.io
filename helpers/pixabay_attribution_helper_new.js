@@ -51,11 +51,11 @@ $(function() {
                     var imageURL = data.hits[0].pageURL;
                     console.log("@GT1: imageURL(pageURL) = ", imageURL);
                     
-                    var artist_id = data.hits[0].user_id;
-                    console.log("@GT1: artist_id(user_id) = ", artist_id);
+                    var user_id = data.hits[0].user_id;
+                    console.log("@GT1: user_id = ", user_id);
                                         
-                   var artist = data.hits[0].user;
-                    console.log("@GT1: artist(user) = ", artist);
+                   var user = data.hits[0].user;
+                    console.log("@GT1: user = ", user);
                                      
 
                     // Update preview image
@@ -115,7 +115,7 @@ $(function() {
                 el.src = "https://dummyimage.com//b094b0/BAD761&text=Replace+with+downloaded+pixabay+image";
                 $(this).attr('alt', alt);
                 $(this).attr('title', alt);
-                $(this).attr('imageURL', imageURL);
+                $(this).attr('pageURL', pageURL);
             });
 
 
