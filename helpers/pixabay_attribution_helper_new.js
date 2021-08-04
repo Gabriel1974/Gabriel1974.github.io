@@ -154,7 +154,7 @@ setTimeout(function() {
                 $(this).attr('imageURL', imageURL); 
                         
             });
-console.log("@GT5: imageURL(pageURL) = ", imageURL);
+
 
          //   $('small').each(function(index, el) {
          //       $(this).html(statement + ', <a href="https://creativecommons.org/licenses/by/3.0/au/" target="_blank">CC BY 3.0 AU</a>.');
@@ -202,9 +202,9 @@ console.log("@GT5: imageURL(pageURL) = ", imageURL);
         $('img').each(function(index, el) {
             el.src = "https://dummyimage.com//b094b0/e3b1e3&text=First+time?++instructions+above";
         });
-
+console.log("@GT5: imageURL(pageURL) = ", imageURL);
     }
-
+console.log("@GT6: imageURL(pageURL) = ", imageURL);
     function fallbackCopyTextToClipboard(text) {
         var textArea = document.createElement("textarea");
         textArea.value = text;
