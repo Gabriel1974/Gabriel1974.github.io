@@ -10,6 +10,11 @@ var artist;
 console.log("@GT: imageURL = ", imageURL);
 console.log("@GT: artist_id = ", artist_id);
 console.log("@GT: artist = ", artist);
+function Gabriel(){
+            console.log("@GT7: imageURL(pageURL) = ", imageURL);           
+            console.log("@GT7: artist_id(user_id) = ", artist_id);                                     
+            console.log("@GT7: artist(user) = ", artist);
+};
 
 $(function() {
     // Detect IE
@@ -70,7 +75,7 @@ $(function() {
                     console.log("@GT2: imageURL(pageURL) = ", imageURL);           
                     console.log("@GT2: artist_id(user_id) = ", artist_id);                                     
                     console.log("@GT2: artist(user) = ", artist);
-                    
+                    Gabriel();
                     
                     // Update preview image
 
