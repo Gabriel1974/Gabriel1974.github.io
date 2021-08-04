@@ -108,9 +108,9 @@ $(function() {
             //var artistGT = url.searchParams.get("user");
             console.log("@GB: src = ", src);
             console.log("@GB: alt = ", alt);
-            console.log("@GT3: imageURL(pageURL) = ", imageURLGT);           
-            console.log("@GT3: artist_id(user_id) = ", artist_idGT);                                     
-            console.log("@GT3: artist(user) = ", artistGT);
+            console.log("@GT3: imageURL(pageURL) = ", imageURL);           
+            console.log("@GT3: artist_id(user_id) = ", artist_id);                                     
+            console.log("@GT3: artist(user) = ", artist);
            
 
 
