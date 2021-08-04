@@ -93,14 +93,14 @@ $(function() {
 
             var alt = url.searchParams.get("alt");
             var src = url.searchParams.get("src");
-            //var imageURL = data.searchParams.get("pageURL");
-            //var artist_id = data.searchParams.get("user_id");
-            //var artist = data.searchParams.get("user");
+            var imageURLGT = data.searchParams.get("pageURL");
+            var artist_idGT = data.searchParams.get("user_id");
+            var artistGT = data.searchParams.get("user");
             console.log("@GB: src = ", src);
             console.log("@GB: alt = ", alt);
-            console.log("@GT2: imageURL(pageURL) = ", imageURL);           
-            console.log("@GT2: artist_id(user_id) = ", artist_id);                                     
-            console.log("@GT2: artist(user) = ", artist);
+            console.log("@GT2: imageURL(pageURL) = ", imageURLGT);           
+            console.log("@GT2: artist_id(user_id) = ", artist_idGT);                                     
+            console.log("@GT2: artist(user) = ", artistGT);
 
 
             // Get current date string
