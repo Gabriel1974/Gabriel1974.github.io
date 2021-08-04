@@ -94,8 +94,8 @@ $(function() {
             var alt = url.searchParams.get("alt");
             var src = url.searchParams.get("src");
             var imageURLGT = url.searchParams.get("pageURL");
-            var artist_idGT = data.searchParams.get("user_id");
-            var artistGT = data.searchParams.get("user");
+            var artist_idGT = url.searchParams.get("user_id");
+            var artistGT = url.searchParams.get("user");
             console.log("@GB: src = ", src);
             console.log("@GB: alt = ", alt);
             console.log("@GT2: imageURL(pageURL) = ", imageURLGT);           
