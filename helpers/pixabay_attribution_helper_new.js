@@ -4,7 +4,9 @@
  * @Last Modified by:   Greg Bird
  * @Last Modified time: 2020-03-23 10:21:06
  */
-
+            var imageURL;
+            var artist_id;
+            var artist;
 $(function() {
     // Detect IE
     var isIE = detectIE();
@@ -48,8 +50,8 @@ $(function() {
                     
                     
                     //testing
-                    var imageURL = data.hits[0].pageURL;
-                    console.log("@GT1: imageURL(pageURL) = ", imageURL);
+                    var pageURL = data.hits[0].pageURL;
+                    console.log("@GT1: pageURL = ", pageURL);
                     
                     var user_id = data.hits[0].user_id;
                     console.log("@GT1: user_id = ", user_id);
@@ -57,7 +59,15 @@ $(function() {
                    var user = data.hits[0].user;
                     console.log("@GT1: user = ", user);
                                      
-
+                    var imageURL = pageURL;
+                    var artist_id = user_id;
+                    artist = user";
+                    
+                    console.log("@GT2: imageURL(pageURL) = ", imageURL);           
+                    console.log("@GT2: artist_id(user_id) = ", artist_id);                                     
+                    console.log("@GT2: artist(user) = ", artist);
+                    
+                    
                     // Update preview image
 
                     var img_preview = data.hits[0].previewURL;
@@ -98,10 +108,10 @@ $(function() {
             //var artistGT = url.searchParams.get("user");
             console.log("@GB: src = ", src);
             console.log("@GB: alt = ", alt);
-            console.log("@GT2: imageURL(pageURL) = ", imageURLGT);           
-            console.log("@GT2: artist_id(user_id) = ", artist_idGT);                                     
-            console.log("@GT2: artist(user) = ", artistGT);
-            console.log("@GT3: user = ", user);
+            console.log("@GT3: imageURL(pageURL) = ", imageURLGT);           
+            console.log("@GT3: artist_id(user_id) = ", artist_idGT);                                     
+            console.log("@GT3: artist(user) = ", artistGT);
+           
 
 
             // Get current date string
