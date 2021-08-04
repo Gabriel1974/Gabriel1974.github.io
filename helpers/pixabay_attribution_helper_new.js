@@ -127,9 +127,9 @@ $(function() {
                 $(this).attr('alt', alt);
                 $(this).attr('title', alt);
                         
-                $(this).attr('artist', user);
-                $(this).attr('artist_id', user_id);
-                $(this).attr('imageURL', pageURL); 
+                $(this).attr('user', artist);
+                $(this).attr('user_id', artist_id);
+                $(this).attr('pageURL', imageURL); 
             });
 
 
@@ -138,7 +138,7 @@ $(function() {
          //   });
             
             $('small').each(function(index, el) {
-                $(this).html('<a href="'+ imageURL +'" target="_blank">Image</a> by <a href="https://pixabay.com/users/'+ artist +'-'+ artist_id +'/ "target="_blank">'+ artist +'</a> from <a href="https://pixabay.com/service/privacy/" target="_blank">Pixabay</a>, <a href="https://creativecommons.org/licenses/by/3.0/au/" target="_blank">CC BY 3.0 AU</a>.');
+                $(this).html('<a href="'+ imageURL +'" target="_blank">Image</a> by <a href="https://pixabay.com/users/'+ user +'-'+ user_id +'/ "target="_blank">'+ artist +'</a> from <a href="https://pixabay.com/service/privacy/" target="_blank">Pixabay</a>, <a href="https://creativecommons.org/licenses/by/3.0/au/" target="_blank">CC BY 3.0 AU</a>.');
             });
 
             $('#embedder button').click(function(event) {
