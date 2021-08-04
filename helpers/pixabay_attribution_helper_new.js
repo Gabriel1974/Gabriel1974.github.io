@@ -4,7 +4,7 @@
  * @Last Modified by:   Greg Bird
  * @Last Modified time: 2020-03-23 10:21:06
  */
-var imageURL;
+let imageURL = "Gabriel";
 var artist_id;
 var artist;
 console.log("@GT: imageURL = ", imageURL);
