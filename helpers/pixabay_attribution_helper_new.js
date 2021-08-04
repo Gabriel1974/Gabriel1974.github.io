@@ -39,7 +39,7 @@ $(function() {
         var re = /utm_content\=(.*?)\"/gi;
         var utm = re.exec(statement)[1];
         console.log("@GB: utm = ", utm);
-
+        console.log("@GY: re = ", re);
         if (statement.length > 0) {
 
             var api_key = "20936957-df8ee59e273ede99f01a341f8";
@@ -129,7 +129,8 @@ console.log("@GT: statement2 = ", statement2);
             console.log("@GT3: imageURL(pageURL) = ", imageURL);           
             console.log("@GT3: artist_id(user_id) = ", artist_id);                                     
             console.log("@GT3: artist(user) = ", artist);
-            
+        //var image_URL = /utm_content\=(.*?)\"/gi;
+        //var utm = re.exec(statement)[1];
 
             //console.log("@GT3: imageURL(pageURL) = ", imageURL);           
             //console.log("@GT3: artist_id(user_id) = ", artist_id);                                     
