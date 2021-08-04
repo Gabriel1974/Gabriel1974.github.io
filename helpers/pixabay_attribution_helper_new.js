@@ -93,7 +93,7 @@ $(function() {
 
             var alt = url.searchParams.get("alt");
             var src = url.searchParams.get("src");
-            var imageURLGT = url.searchParams.get("pageURL");
+            var imageURLGT = object.get("pageURL");
             var artist_idGT = url.searchParams.get("user_id");
             var artistGT = url.searchParams.get("user");
             console.log("@GB: src = ", src);
