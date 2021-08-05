@@ -129,9 +129,11 @@ console.log("@GT: statement2 = ", statement2);
             console.log("@GT3: imageURL(pageURL) = ", imageURL);           
             console.log("@GT3: artist_id(user_id) = ", artist_id);                                     
             console.log("@GT3: artist(user) = ", artist);
-        var image_URL = url.searchParams.get("href");
+        //var image_URL = url.searchParams.get("href");
         //var utm = re.exec(statement)[1];
-
+ var us = /https://pixabay.com/users/\=(.*?)\?/gi;
+        var user_URL = us.exec(statement2)[1];
+                   console.log("@GT: user_URL = ", user_URL);
             console.log("@GT3: image_URL = ", image_URL);           
             //console.log("@GT3: artist_id(user_id) = ", artist_id);                                     
             //console.log("@GT3: artist(user) = ", artist);
