@@ -129,10 +129,10 @@ console.log("@GT: statement2 = ", statement2);
             console.log("@GT3: imageURL(pageURL) = ", imageURL);           
             console.log("@GT3: artist_id(user_id) = ", artist_id);                                     
             console.log("@GT3: artist(user) = ", artist);
-        //var image_URL = /utm_content\=(.*?)\"/gi;
+        var image_URL = url.searchParams.get("href");
         //var utm = re.exec(statement)[1];
 
-            //console.log("@GT3: imageURL(pageURL) = ", imageURL);           
+            console.log("@GT3: image_URL = ", image_URL);           
             //console.log("@GT3: artist_id(user_id) = ", artist_id);                                     
             //console.log("@GT3: artist(user) = ", artist);
                               
